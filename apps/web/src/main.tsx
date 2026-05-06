@@ -3,7 +3,7 @@ import { createRoot } from "react-dom/client";
 import { WagmiProvider } from "wagmi";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { AbstractWalletProvider } from "@abstract-foundation/agw-react";
-import { abstractTestnet } from "viem/chains";
+import { abstract } from "viem/chains";
 import App from "./App";
 import { wagmiConfig } from "./lib/wagmi";
 import { ToastProvider } from "./components/ui";
@@ -18,7 +18,7 @@ const rootEl = document.getElementById("root");
 if (!rootEl) throw new Error("#root element missing from index.html");
 createRoot(rootEl).render(
   <StrictMode>
-    <AbstractWalletProvider chain={abstractTestnet}>
+    <AbstractWalletProvider chain={abstract}>
       <WagmiProvider config={wagmiConfig}>
         <QueryClientProvider client={queryClient}>
           <ToastProvider>
