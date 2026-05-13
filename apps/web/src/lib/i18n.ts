@@ -41,7 +41,7 @@ const dictionaries: Record<Lang, Record<string, string>> = {
 
     // Closed-beta banner
     "beta.badge": "Closed Beta · Testnet",
-    "beta.copy": "Abstract Sepolia testnet — no real money, balances may be reset.",
+    "beta.copy": "SeaBattle is live on Abstract Mainnet. Real ETH at stake — play responsibly.",
     "beta.banner.aria": "Closed beta announcement",
     "beta.dismiss.aria": "Dismiss",
 
@@ -370,7 +370,7 @@ const dictionaries: Record<Lang, Record<string, string>> = {
     "brand.era": "Закрытая бета · Abstract Testnet",
 
     "beta.badge": "Закрытая бета · Testnet",
-    "beta.copy": "Abstract Sepolia testnet — реальных денег нет, балансы могут сброситься.",
+    "beta.copy": "SeaBattle работает на Abstract Mainnet. Реальные ETH — играйте ответственно.",
     "beta.banner.aria": "Уведомление о закрытой бете",
     "beta.dismiss.aria": "Скрыть",
 
@@ -678,7 +678,7 @@ const dictionaries: Record<Lang, Record<string, string>> = {
     "brand.era": "Закрита бета · Abstract Testnet",
 
     "beta.badge": "Закрита бета · Testnet",
-    "beta.copy": "Abstract Sepolia testnet — реальних грошей немає, баланси можуть скинутись.",
+    "beta.copy": "SeaBattle працює на Abstract Mainnet. Реальні ETH — грайте відповідально.",
     "beta.banner.aria": "Сповіщення про закриту бету",
     "beta.dismiss.aria": "Сховати",
 

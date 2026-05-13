@@ -257,12 +257,12 @@ export function Home({ onPvE, onPvP, onProfile, onLeaderboard }: Props) {
             <span className="text-gold-300">• ECDSA SIGNED RESULTS •</span>
             <span>• 95 % TO WINNER •</span>
             <span className="text-coral-300">• ЮНГА → АДМИРАЛ •</span>
-            <span>• TESTNET FIRST •</span>
+            <span>• MAINNET LIVE •</span>
             <span className="text-gold-300">• ON-CHAIN STAKES •</span>
             <span>• ECDSA SIGNED RESULTS •</span>
             <span className="text-coral-300">• 95 % TO WINNER •</span>
             <span>• ЮНГА → АДМИРАЛ •</span>
-            <span className="text-gold-300">• TESTNET FIRST •</span>
+            <span className="text-gold-300">• MAINNET LIVE •</span>
           </div>
         </div>
       </section>

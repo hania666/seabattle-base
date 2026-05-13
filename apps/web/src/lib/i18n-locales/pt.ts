@@ -10,7 +10,7 @@ export const dict: Record<string, string> = {
 
   // Closed-beta banner
   "beta.badge": "Beta fechada · Testnet",
-  "beta.copy": "Abstract Sepolia testnet — sem dinheiro real, os saldos podem ser zerados.",
+  "beta.copy": "SeaBattle is live on Abstract Mainnet. Real ETH at stake — play responsibly.",
   "beta.banner.aria": "Aviso de beta fechada",
   "beta.dismiss.aria": "Fechar",
 
@@ -104,7 +104,7 @@ export const dict: Record<string, string> = {
 
   // PvE
   "pve.title": "Jogar contra bot",
-  "pve.subtitle": "Abstract Sepolia · testnet ETH",
+  "pve.subtitle": "Abstract Mainnet · real ETH",
   "pve.playing": "Você joga contra",
   "pve.bot": "bot · {{level}}",
   "pve.yourTurn": "Sua vez",
