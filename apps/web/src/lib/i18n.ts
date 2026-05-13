@@ -37,10 +37,10 @@ const dictionaries: Record<Lang, Record<string, string>> = {
     // Branding
     "brand.name": "SeaBattle",
     "brand.tagline": "Stake · Play · Claim",
-    "brand.era": "Closed Beta · Abstract Testnet",
+    "brand.era": "Mainnet · Abstract",
 
     // Closed-beta banner
-    "beta.badge": "Closed Beta · Testnet",
+    "beta.badge": "Mainnet Live 🚀",
     "beta.copy": "SeaBattle is live on Abstract Mainnet. Real ETH at stake — play responsibly.",
     "beta.banner.aria": "Closed beta announcement",
     "beta.dismiss.aria": "Dismiss",
@@ -91,7 +91,7 @@ const dictionaries: Record<Lang, Record<string, string>> = {
     "home.tile.pve.title": "PLAY vs BOT",
     "home.tile.pve.sub": "Free XP, dust fee",
     "home.tile.pve.desc":
-      "Easy is free. Normal/Hard cost pennies of testnet ETH. Sink the bot, rack up XP, rank up.",
+      "Easy costs a tiny ETH entry fee. Normal/Hard cost a bit more. Sink the bot, rack up XP, rank up.",
     "home.tile.pve.cta": "PLAY",
     "home.tile.pvp.title": "PvP ARENA",
     "home.tile.pvp.sub": "Stake · play · claim",
@@ -135,7 +135,7 @@ const dictionaries: Record<Lang, Record<string, string>> = {
 
     // PvE
     "pve.title": "Play vs bot",
-    "pve.subtitle": "Abstract Sepolia · testnet ETH",
+    "pve.subtitle": "Abstract Mainnet · real ETH",
     "pve.playing": "Playing",
     "pve.bot": "{{level}} bot",
     "pve.yourTurn": "Your turn",
@@ -271,7 +271,7 @@ const dictionaries: Record<Lang, Record<string, string>> = {
     "legal.gate.title": "One quick check",
     "legal.gate.subtitle": "Before you enter the game",
     "legal.gate.intro":
-      "SeaBattle is a skill-based game. You can play for free (PvE Easy) or stake testnet/real ETH against another player. Please confirm two things before you continue.",
+      "SeaBattle is a skill-based game. You can play for free (PvE Easy) or stake real ETH against another player. Please confirm two things before you continue.",
     "legal.gate.age.check": "I am at least 18 years old (or the age of majority where I live).",
     "legal.gate.tos.before": "I have read and agree to the",
     "legal.gate.tos.link": "Terms of Service",
@@ -367,9 +367,9 @@ const dictionaries: Record<Lang, Record<string, string>> = {
   ru: {
     "brand.name": "SeaBattle",
     "brand.tagline": "Ставка · Игра · Клейм",
-    "brand.era": "Закрытая бета · Abstract Testnet",
+    "brand.era": "Mainnet · Abstract",
 
-    "beta.badge": "Закрытая бета · Testnet",
+    "beta.badge": "Mainnet Live 🚀",
     "beta.copy": "SeaBattle работает на Abstract Mainnet. Реальные ETH — играйте ответственно.",
     "beta.banner.aria": "Уведомление о закрытой бете",
     "beta.dismiss.aria": "Скрыть",
@@ -675,9 +675,9 @@ const dictionaries: Record<Lang, Record<string, string>> = {
   uk: {
     "brand.name": "SeaBattle",
     "brand.tagline": "Ставка · Гра · Клейм",
-    "brand.era": "Закрита бета · Abstract Testnet",
+    "brand.era": "Mainnet · Abstract",
 
-    "beta.badge": "Закрита бета · Testnet",
+    "beta.badge": "Mainnet Live 🚀",
     "beta.copy": "SeaBattle працює на Abstract Mainnet. Реальні ETH — грайте відповідально.",
     "beta.banner.aria": "Сповіщення про закриту бету",
     "beta.dismiss.aria": "Сховати",
