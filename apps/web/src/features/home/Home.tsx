@@ -19,11 +19,12 @@ interface Props {
   onPvP: () => void;
   onProfile: () => void;
   onLeaderboard: () => void;
+  onLogin: () => void;
 }
 
-export function Home({ onPvE, onPvP, onProfile, onLeaderboard }: Props) {
+export function Home({ onPvE, onPvP, onProfile, onLeaderboard, onLogin }: Props) {
   const t = useT();
-  const { address } = useAccount();
+  const { address, isConnected } = useAccount();
   const [stats, setStats] = useState<PlayerStats>(() => loadStats(address));
 
   useEffect(() => {
@@ -97,11 +98,15 @@ export function Home({ onPvE, onPvP, onProfile, onLeaderboard }: Props) {
             <PrimaryCTA
               onClick={() => {
                 sfx.click();
-                onPvE();
+                if (isConnected) {
+                  onPvE();
+                } else {
+                  onLogin();
+                }
               }}
               data-testid="home-pve"
             >
-              {t("home.cta.enter")}
+              {isConnected ? t("home.cta.enter") : t("auth.signIn")}
             </PrimaryCTA>
           </div>
           <div className="mt-3 flex flex-wrap items-center justify-center gap-2 text-xs">

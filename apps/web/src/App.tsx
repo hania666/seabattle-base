@@ -215,6 +215,7 @@ function AppInner() {
               <Home
                 onPvE={() => goto("pve")}
                 onPvP={() => goto("pvp")}
+                onLogin={login}
                 onProfile={() => goto("profile")}
                 onLeaderboard={() => goto("leaderboard")}
               />
