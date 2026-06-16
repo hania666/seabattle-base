@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useAccount, useChainId, useSwitchChain } from "wagmi";
-import { abstractTestnet } from "viem/chains";
+import { baseSepolia } from "viem/chains";
 import { useT } from "../lib/i18n";
 
 /**
@@ -16,8 +16,8 @@ import { useT } from "../lib/i18n";
  * never accidentally render a switch button to the wrong network.
  */
 
-const EXPECTED_CHAIN_ID = abstractTestnet.id;
-const EXPECTED_CHAIN_NAME = abstractTestnet.name;
+const EXPECTED_CHAIN_ID = baseSepolia.id;
+const EXPECTED_CHAIN_NAME = baseSepolia.name;
 
 export function NetworkPrompt(): JSX.Element | null {
   const t = useT();

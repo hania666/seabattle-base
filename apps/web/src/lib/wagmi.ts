@@ -1,14 +1,19 @@
 import { createConfig, http } from "wagmi";
-import { abstractTestnet } from "viem/chains";
-import { abstractWalletConnector } from "@abstract-foundation/agw-react/connectors";
+import { baseSepolia } from "viem/chains";
+import { coinbaseWallet } from "wagmi/connectors";
 
 export const wagmiConfig = createConfig({
-  chains: [abstractTestnet],
-  connectors: [abstractWalletConnector()],
+  chains: [baseSepolia],
+  connectors: [
+    coinbaseWallet({
+      appName: "SeaBattle",
+      appLogoUrl: "https://seabattle.xyz/favicon.svg",
+      preference: "smartWalletOnly",
+    }),
+  ],
   transports: {
-    [abstractTestnet.id]: http(),
+    [baseSepolia.id]: http("https://api.developer.coinbase.com/rpc/v1/base-sepolia/kJtWgEgTe48SfOnALxdHmoEkoGFCETFu"),
   },
-  ssr: false,
 });
 
 declare module "wagmi" {

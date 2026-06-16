@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { useAccount, useWriteContract, useWaitForTransactionReceipt } from "wagmi";
-import { useLoginWithAbstract } from "@abstract-foundation/agw-react";
+import { useConnect } from "wagmi";
 import { decodeEventLog, parseEther, type Hex } from "viem";
 import type { Board, Difficulty } from "../../lib/game/types";
 import { DIFFICULTY_ENTRY_FEE_ETH, DIFFICULTY_LABELS } from "../../lib/game/types";
@@ -61,7 +61,8 @@ export function PveScreen({ onExit }: { onExit: () => void }) {
   const [chainError, setChainError] = useState<string | null>(null);
 
   const { address, isConnected } = useAccount();
-  const { login } = useLoginWithAbstract();
+  const { connect, connectors } = useConnect();
+  const login = () => connect({ connector: connectors[0] });
   const { writeContractAsync, isPending: isSigning, error: writeError, reset } = useWriteContract();
   const { isLoading: isMining, isSuccess: isMined, data: receipt } =
     useWaitForTransactionReceipt({ hash: txHash });

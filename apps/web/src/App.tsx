@@ -3,7 +3,7 @@ import { saveRef } from "./lib/referral";
 import { useUsername } from "./lib/useUsername";
 import { useAuth } from "./lib/useAuth";
 import { UsernameModal } from "./components/UsernameModal";
-import { useLoginWithAbstract } from "@abstract-foundation/agw-react";
+import { useConnect } from "wagmi";
 import { useAccount, useDisconnect } from "wagmi";
 import { shortAddress } from "./lib/format";
 import { Splash } from "./features/splash/Splash";
@@ -60,7 +60,8 @@ export default function App() {
 function AppInner() {
   const t = useT();
   const lang = useLang();
-  const { login } = useLoginWithAbstract();
+  const { connect, connectors } = useConnect();
+  const login = () => connect({ connector: connectors[0] });
   const { address, isConnected } = useAccount();
   const { authedFetch, session } = useAuth();
   const { setUsername } = useUsername(session?.wallet, authedFetch);

@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useAccount } from "wagmi";
-import { useLoginWithAbstract } from "@abstract-foundation/agw-react";
+import { useConnect } from "wagmi";
 import { BackLink, Button, Card } from "../../components/ui";
 import { shortAddress } from "../../lib/format";
 import { rankForXp, RANKS, TONE_CLASSES } from "../../lib/ranks";
@@ -34,7 +34,8 @@ interface Props {
 export function ProfileScreen({ onExit, onPlayPvE, onPlayPvP }: Props) {
   const t = useT();
   const { address, isConnected } = useAccount();
-  const { login } = useLoginWithAbstract();
+  const { connect, connectors } = useConnect();
+  const login = () => connect({ connector: connectors[0] });
   const [stats, setStats] = useState<PlayerStats>(() => loadStats(address));
   const coins = useCoins(address);
 

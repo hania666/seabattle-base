@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useState } from "react";
 import { useAccount } from "wagmi";
-import { useLoginWithAbstract } from "@abstract-foundation/agw-react";
+import { useConnect } from "wagmi";
 import { BackLink, Button, Card } from "../../components/ui";
 import { useT } from "../../lib/i18n";
 import { useAuth } from "../../lib/useAuth";
@@ -47,7 +47,8 @@ function formatDate(iso: string): string {
 export function ReferralsScreen({ onExit }: Props) {
   const t = useT();
   const { address, isConnected } = useAccount();
-  const { login } = useLoginWithAbstract();
+  const { connect, connectors } = useConnect();
+  const login = () => connect({ connector: connectors[0] });
   const { authedFetch, session } = useAuth();
   const [data, setData] = useState<ReferralsResponse | null>(null);
   const [error, setError] = useState<string | null>(null);
