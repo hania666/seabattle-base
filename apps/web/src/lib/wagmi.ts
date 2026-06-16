@@ -8,7 +8,7 @@ export const wagmiConfig = createConfig({
     coinbaseWallet({
       appName: "SeaBattle",
       appLogoUrl: "https://seabattle.xyz/favicon.svg",
-      preference: "smartWalletOnly",
+      preference: { options: "smartWalletOnly" },
     }),
   ],
   transports: {
