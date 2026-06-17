@@ -1,9 +1,9 @@
 import { createConfig, http } from "wagmi";
-import { baseSepolia } from "viem/chains";
+import { base } from "viem/chains";
 import { coinbaseWallet } from "wagmi/connectors";
 
 export const wagmiConfig = createConfig({
-  chains: [baseSepolia],
+  chains: [base],
   connectors: [
     coinbaseWallet({
       appName: "SeaBattle",
@@ -12,7 +12,7 @@ export const wagmiConfig = createConfig({
     }),
   ],
   transports: {
-    [baseSepolia.id]: http("https://api.developer.coinbase.com/rpc/v1/base-sepolia/kJtWgEgTe48SfOnALxdHmoEkoGFCETFu"),
+    [base.id]: http("https://api.developer.coinbase.com/rpc/v1/base/kJtWgEgTe48SfOnALxdHmoEkoGFCETFu"),
   },
 });
 
