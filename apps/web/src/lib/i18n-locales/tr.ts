@@ -6,11 +6,11 @@ export const dict: Record<string, string> = {
   // Branding
   "brand.name": "SeaBattle",
   "brand.tagline": "Yatır · Oyna · Talep et",
-  "brand.era": "Closed Beta · Abstract Testnet",
+  "brand.era": "Testnet · Base Sepolia",
 
   // Closed-beta banner
-  "beta.badge": "Closed Beta · Testnet",
-  "beta.copy": "SeaBattle is live on Abstract Mainnet. Real ETH at stake — play responsibly.",
+  "beta.badge": "Testnet · Testnet",
+  "beta.copy": "SeaBattle is live on Base Sepolia Testnet. Test ETH only — no real money.",
   "beta.banner.aria": "Closed beta duyurusu",
   "beta.dismiss.aria": "Kapat",
 
@@ -104,7 +104,7 @@ export const dict: Record<string, string> = {
 
   // PvE
   "pve.title": "Bota karşı oyna",
-  "pve.subtitle": "Abstract Mainnet · real ETH",
+  "pve.subtitle": "Base Sepolia · testnet ETH",
   "pve.playing": "Oynadığın",
   "pve.bot": "bot · {{level}}",
   "pve.yourTurn": "Sıra sende",
@@ -304,7 +304,7 @@ export const dict: Record<string, string> = {
   "referrals.eyebrow": "Kaptanlar locası",
   "referrals.title": "Davet et ve kazan",
   "referrals.lead": "Arkadaşlarını link'inle davet et. Kazandıkları her PvE maçından XP, ilk maçlarında da tek seferlik Coin bonusu kazan.",
-  "referrals.connectPrompt": "Link'ini ve ödüllerini görmek için Abstract cüzdanını bağla.",
+  "referrals.connectPrompt": "Link'ini ve ödüllerini görmek için Base cüzdanını bağla.",
   "referrals.linkTitle": "Davet linkin",
   "referrals.linkHelp": "Bu URL'yi paylaş. Ondan bağlanan herkes davetlin olur — cüzdan başına bir kez.",
   "referrals.copy": "Kopyala",

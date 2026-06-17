@@ -37,11 +37,11 @@ const dictionaries: Record<Lang, Record<string, string>> = {
     // Branding
     "brand.name": "SeaBattle",
     "brand.tagline": "Stake · Play · Claim",
-    "brand.era": "Mainnet · Abstract",
+    "brand.era": "Testnet · Base Sepolia",
 
     // Closed-beta banner
     "beta.badge": "Mainnet Live 🚀",
-    "beta.copy": "SeaBattle is live on Abstract Mainnet. Real ETH at stake — play responsibly.",
+    "beta.copy": "SeaBattle is live on Base Sepolia Testnet. Test ETH only — no real money.",
     "beta.banner.aria": "Closed beta announcement",
     "beta.dismiss.aria": "Dismiss",
 
@@ -135,7 +135,7 @@ const dictionaries: Record<Lang, Record<string, string>> = {
 
     // PvE
     "pve.title": "Play vs bot",
-    "pve.subtitle": "Abstract Mainnet · real ETH",
+    "pve.subtitle": "Base Sepolia · testnet ETH",
     "pve.playing": "Playing",
     "pve.bot": "{{level}} bot",
     "pve.yourTurn": "Your turn",
@@ -337,7 +337,7 @@ const dictionaries: Record<Lang, Record<string, string>> = {
     "referrals.eyebrow": "Captains' guild",
     "referrals.title": "Refer & earn",
     "referrals.lead": "Invite friends with your link. Earn XP from every PvE match they win, plus a one-time Coin bonus on their first match.",
-    "referrals.connectPrompt": "Connect your Abstract wallet to see your referral link and rewards.",
+    "referrals.connectPrompt": "Connect your wallet to see your referral link and rewards.",
     "referrals.linkTitle": "Your referral link",
     "referrals.linkHelp": "Share this URL. Anyone who connects through it counts as your referral — once per wallet.",
     "referrals.copy": "Copy",
@@ -367,10 +367,10 @@ const dictionaries: Record<Lang, Record<string, string>> = {
   ru: {
     "brand.name": "SeaBattle",
     "brand.tagline": "Ставка · Игра · Клейм",
-    "brand.era": "Mainnet · Abstract",
+    "brand.era": "Testnet · Base Sepolia",
 
     "beta.badge": "Mainnet Live 🚀",
-    "beta.copy": "SeaBattle работает на Abstract Mainnet. Реальные ETH — играйте ответственно.",
+    "beta.copy": "SeaBattle работает на Base Sepolia Testnet. Только тестовые ETH — реальных денег нет.",
     "beta.banner.aria": "Уведомление о закрытой бете",
     "beta.dismiss.aria": "Скрыть",
 
@@ -457,7 +457,7 @@ const dictionaries: Record<Lang, Record<string, string>> = {
     "ship.destroyer": "Эсминец",
 
     "pve.title": "Игра с ботом",
-    "pve.subtitle": "Abstract Sepolia · тестнет ETH",
+    "pve.subtitle": "Base Sepolia · тестнет ETH",
     "pve.playing": "Играешь против",
     "pve.bot": "бот · {{level}}",
     "pve.yourTurn": "Твой ход",
@@ -646,7 +646,7 @@ const dictionaries: Record<Lang, Record<string, string>> = {
     "referrals.eyebrow": "Гильдия капитанов",
     "referrals.title": "Приглашай и зарабатывай",
     "referrals.lead": "Зови друзей по своей ссылке. Получай XP с каждой их PvE-победы и разовый бонус Coins за первый матч.",
-    "referrals.connectPrompt": "Подключи Abstract-кошелёк, чтобы увидеть свою ссылку и награды.",
+    "referrals.connectPrompt": "Подключи кошелёк, чтобы увидеть свою ссылку и награды.",
     "referrals.linkTitle": "Твоя реферальная ссылка",
     "referrals.linkHelp": "Поделись этим адресом. Любой, кто подключится по нему, станет твоим рефералом — один раз на кошелёк.",
     "referrals.copy": "Копировать",
@@ -675,10 +675,10 @@ const dictionaries: Record<Lang, Record<string, string>> = {
   uk: {
     "brand.name": "SeaBattle",
     "brand.tagline": "Ставка · Гра · Клейм",
-    "brand.era": "Mainnet · Abstract",
+    "brand.era": "Testnet · Base Sepolia",
 
     "beta.badge": "Mainnet Live 🚀",
-    "beta.copy": "SeaBattle працює на Abstract Mainnet. Реальні ETH — грайте відповідально.",
+    "beta.copy": "SeaBattle працює на Base Sepolia Testnet. Тільки тестові ETH — реальних грошей немає.",
     "beta.banner.aria": "Сповіщення про закриту бету",
     "beta.dismiss.aria": "Сховати",
 
@@ -765,7 +765,7 @@ const dictionaries: Record<Lang, Record<string, string>> = {
     "ship.destroyer": "Есмінець",
 
     "pve.title": "Гра з ботом",
-    "pve.subtitle": "Abstract Sepolia · тестнет ETH",
+    "pve.subtitle": "Base Sepolia · тестнет ETH",
     "pve.playing": "Граєш проти",
     "pve.bot": "бот · {{level}}",
     "pve.yourTurn": "Твій хід",
@@ -954,7 +954,7 @@ const dictionaries: Record<Lang, Record<string, string>> = {
     "referrals.eyebrow": "Гільдія капітанів",
     "referrals.title": "Запрошуй та заробляй",
     "referrals.lead": "Клич друзів за своїм посиланням. Отримуй XP з кожної їхньої PvE-перемоги та разовий Coins-бонус за перший матч.",
-    "referrals.connectPrompt": "Підключи Abstract-гаманець, щоб побачити своє посилання та нагороди.",
+    "referrals.connectPrompt": "Підключи гаманець, щоб побачити своє посилання та нагороди.",
     "referrals.linkTitle": "Твоє реферальне посилання",
     "referrals.linkHelp": "Поділись цією адресою. Будь-хто, хто підключиться через неї, стане твоїм рефералом — один раз на гаманець.",
     "referrals.copy": "Копіювати",

@@ -6,11 +6,11 @@ export const dict: Record<string, string> = {
   // Branding
   "brand.name": "SeaBattle",
   "brand.tagline": "Einsetzen · Spielen · Auszahlen",
-  "brand.era": "Closed Beta · Abstract Testnet",
+  "brand.era": "Testnet · Base Sepolia",
 
   // Closed-beta banner
-  "beta.badge": "Closed Beta · Testnet",
-  "beta.copy": "SeaBattle is live on Abstract Mainnet. Real ETH at stake — play responsibly.",
+  "beta.badge": "Testnet · Testnet",
+  "beta.copy": "SeaBattle is live on Base Sepolia Testnet. Test ETH only — no real money.",
   "beta.banner.aria": "Hinweis zur Closed Beta",
   "beta.dismiss.aria": "Schließen",
 
@@ -104,7 +104,7 @@ export const dict: Record<string, string> = {
 
   // PvE
   "pve.title": "Gegen Bot spielen",
-  "pve.subtitle": "Abstract Mainnet · real ETH",
+  "pve.subtitle": "Base Sepolia · testnet ETH",
   "pve.playing": "Du spielst gegen",
   "pve.bot": "Bot · {{level}}",
   "pve.yourTurn": "Du bist dran",
@@ -304,7 +304,7 @@ export const dict: Record<string, string> = {
   "referrals.eyebrow": "Kapitänsgilde",
   "referrals.title": "Einladen & verdienen",
   "referrals.lead": "Lade Freunde mit deinem Link ein. Erhalte XP für jedes gewonnene PvE-Spiel und einen einmaligen Coin-Bonus beim ersten Spiel.",
-  "referrals.connectPrompt": "Verbinde deine Abstract-Wallet, um deinen Link und deine Belohnungen zu sehen.",
+  "referrals.connectPrompt": "Verbinde deine Base-Wallet, um deinen Link und deine Belohnungen zu sehen.",
   "referrals.linkTitle": "Dein Empfehlungslink",
   "referrals.linkHelp": "Teile diese URL. Wer sich darin verbindet, wird dein Geworbener — einmal pro Wallet.",
   "referrals.copy": "Kopieren",
