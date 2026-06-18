@@ -37,11 +37,11 @@ const dictionaries: Record<Lang, Record<string, string>> = {
     // Branding
     "brand.name": "SeaBattle",
     "brand.tagline": "Stake · Play · Claim",
-    "brand.era": "Testnet · Base Sepolia",
+    "brand.era": "Mainnet · Base",
 
     // Closed-beta banner
     "beta.badge": "Mainnet Live 🚀",
-    "beta.copy": "SeaBattle is live on Base Sepolia Testnet. Test ETH only — no real money.",
+    "beta.copy": "SeaBattle is live on Base Mainnet. Real ETH at stake — play responsibly.",
     "beta.banner.aria": "Closed beta announcement",
     "beta.dismiss.aria": "Dismiss",
 
@@ -367,10 +367,10 @@ const dictionaries: Record<Lang, Record<string, string>> = {
   ru: {
     "brand.name": "SeaBattle",
     "brand.tagline": "Ставка · Игра · Клейм",
-    "brand.era": "Testnet · Base Sepolia",
+    "brand.era": "Mainnet · Base",
 
     "beta.badge": "Mainnet Live 🚀",
-    "beta.copy": "SeaBattle работает на Base Sepolia Testnet. Только тестовые ETH — реальных денег нет.",
+    "beta.copy": "SeaBattle работает на Base Mainnet. Реальные ETH — играйте ответственно.",
     "beta.banner.aria": "Уведомление о закрытой бете",
     "beta.dismiss.aria": "Скрыть",
 
@@ -675,10 +675,10 @@ const dictionaries: Record<Lang, Record<string, string>> = {
   uk: {
     "brand.name": "SeaBattle",
     "brand.tagline": "Ставка · Гра · Клейм",
-    "brand.era": "Testnet · Base Sepolia",
+    "brand.era": "Mainnet · Base",
 
     "beta.badge": "Mainnet Live 🚀",
-    "beta.copy": "SeaBattle працює на Base Sepolia Testnet. Тільки тестові ETH — реальних грошей немає.",
+    "beta.copy": "SeaBattle працює на Base Mainnet. Реальні ETH — грайте відповідально.",
     "beta.banner.aria": "Сповіщення про закриту бету",
     "beta.dismiss.aria": "Сховати",
 

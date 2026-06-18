@@ -10,7 +10,7 @@ export const dict: Record<string, string> = {
 
   // Closed-beta banner
   "beta.badge": "Beta fechada · Testnet",
-  "beta.copy": "SeaBattle is live on Base Sepolia Testnet. Test ETH only — no real money.",
+  "beta.copy": "SeaBattle is live on Base Mainnet. Test ETH only — no real money.",
   "beta.banner.aria": "Aviso de beta fechada",
   "beta.dismiss.aria": "Fechar",
 

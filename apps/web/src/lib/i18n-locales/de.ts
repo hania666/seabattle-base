@@ -6,11 +6,11 @@ export const dict: Record<string, string> = {
   // Branding
   "brand.name": "SeaBattle",
   "brand.tagline": "Einsetzen · Spielen · Auszahlen",
-  "brand.era": "Testnet · Base Sepolia",
+  "brand.era": "Mainnet · Base Sepolia",
 
   // Closed-beta banner
-  "beta.badge": "Testnet · Testnet",
-  "beta.copy": "SeaBattle is live on Base Sepolia Testnet. Test ETH only — no real money.",
+  "beta.badge": "Mainnet · Testnet",
+  "beta.copy": "SeaBattle is live on Base Mainnet. Test ETH only — no real money.",
   "beta.banner.aria": "Hinweis zur Closed Beta",
   "beta.dismiss.aria": "Schließen",
 
