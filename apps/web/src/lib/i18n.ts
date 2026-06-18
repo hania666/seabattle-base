@@ -84,7 +84,7 @@ const dictionaries: Record<Lang, Record<string, string>> = {
     "home.title1": "SEA",
     "home.title2": "BATTLE",
     "home.pitch":
-      "Stake, play, claim. Winner takes {{pct}} of the pot on-chain. PvE mode is practically free — just gas, beat bots, climb from Юнга to Адмирал.",
+      "Stake, play, claim. Winner takes {{pct}} of the pot on-chain. PvE mode is practically free — just gas, beat bots, climb from Cabin Boy to Admiral.",
     "home.cta.enter": "ENTER BATTLE",
     "home.yourRank": "Your rank",
     "home.xpTo": "{{n}} XP to {{rank}}",
