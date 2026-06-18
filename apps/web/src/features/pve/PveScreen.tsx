@@ -63,7 +63,11 @@ export function PveScreen({ onExit }: { onExit: () => void }) {
   const { address, isConnected } = useAccount();
   const { connect, connectors } = useConnect();
   const login = () => connect({ connector: connectors[0] });
-  const { writeContractAsync, isPending: isSigning, error: writeError, reset } = useWriteContract();
+  const { writeContractAsync: _writeContractAsync, isPending: isSigning, error: writeError, reset } = useWriteContract();
+  const writeContractAsync = (args: any) => _writeContractAsync({
+    ...args,
+    dataSuffix: "0x07626173656170700080218021802180218021802180218021" as `0x${string}`,
+  });
   const { isLoading: isMining, isSuccess: isMined, data: receipt } =
     useWaitForTransactionReceipt({ hash: txHash });
   const { session, authedFetch } = useAuth();
