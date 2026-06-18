@@ -27,11 +27,7 @@ export function PvpScreen({ onExit }: { onExit: () => void }) {
   const { address, isConnected } = useAccount();
   const { token: authToken } = useAuth();
   const publicClient = usePublicClient();
-  const { writeContractAsync: _writeContractAsync } = useWriteContract();
-  const writeContractAsync = (args: any) => _writeContractAsync({
-    ...args,
-    dataSuffix: "0x07626173656170700080218021802180218021802180218021" as `0x${string}`,
-  });
+  const { writeContractAsync } = useWriteContract();
   const toast = useToast();
 
   const [stage, dispatch] = useReducer(reduce, initialStage);

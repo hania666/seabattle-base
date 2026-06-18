@@ -1,6 +1,11 @@
 import { createConfig, http } from "wagmi";
 import { base } from "viem/chains";
 import { coinbaseWallet } from "wagmi/connectors";
+import { Attribution } from "ox/erc8021";
+
+const DATA_SUFFIX = Attribution.toDataSuffix({
+  codes: ["bc_tw1zm480"],
+});
 
 export const wagmiConfig = createConfig({
   chains: [base],
@@ -14,6 +19,7 @@ export const wagmiConfig = createConfig({
   transports: {
     [base.id]: http("https://api.developer.coinbase.com/rpc/v1/base/kJtWgEgTe48SfOnALxdHmoEkoGFCETFu"),
   },
+  dataSuffix: DATA_SUFFIX,
 });
 
 declare module "wagmi" {
